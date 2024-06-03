@@ -6,7 +6,7 @@ import puppeteer from 'puppeteer';
   const browser = await puppeteer.launch({
     headless: false,
     defaultViewport: { width: 1920, height: 1080 },
-    slowMo: 250,
+    // slowMo: 250,
     userDataDir: "temporary",
   });
 

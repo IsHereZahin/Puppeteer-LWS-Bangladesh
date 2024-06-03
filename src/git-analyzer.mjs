@@ -6,7 +6,6 @@ import fs from "fs/promises"; // use promises version of fs for better async/awa
         const browser = await puppeteer.launch({
             headless: false,
             defaultViewport: { width: 1920, height: 1080 },
-            slowMo: 250,
             userDataDir: "temporary",
         });
 
